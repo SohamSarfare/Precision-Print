@@ -500,6 +500,40 @@ main {
 	background-position: 8px 10px;
 	
 }
+footer {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 100%;
+}
+.footer-img {
+	width: 20%;
+	height: auto;
+	float: left;
+}
+.footer-center {
+	width: 60%;
+	text-align: center;
+	float: left;
+	padding-top: 37px;
+
+}
+.footer-center p {
+	text-align: center;
+	width: 100%;
+	color: rgba(171,171,171,1.00);
+	line-height: 0px;
+	bottom: 0px;
+}
+.footer-social {
+	padding-top: 0px;
+	float: left;
+	margin-top: -25px;
+}
+
+
+
+
+
 
 
 

@@ -1,4 +1,7 @@
 @charset "utf-8";
+html {
+	scroll-behavior: smooth;
+}
 a {
 	text-decoration: none;
 	color: inherit;
@@ -26,6 +29,7 @@ body {
 	margin-left: 0px;
 	background-color: rgba(255,255,255,1.00);
 }
+
 
 header {
 	background-color: rgba(242,242,242,1.00);
@@ -340,11 +344,165 @@ main {
 .w3-animate-opacity{
 	animation:opac 0.8s;
 }
+.contact {
+	width: 100%;
+	background-image: url(images/Website%20Assets/card.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.contact-content {
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(157,157,157,0.73);
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.underline {
+	position: relative;
+	font-weight: bold;
+}
+.underline:after {
+	content: '';
+	width: 60px;
+	height: 4px;
+	position: absolute;
+	bottom: -4px;
+	background-color: rgba(158,0,2,1.00);
+	right: auto;
+	left: 0px;
+}
+
+
+
+
+.contact-col-2 {
+	width: 45%;
+	float: left;
+	padding-left: 5%;
+}
+
+
+
 
 @keyframes opac{
 	from{opacity:0}
 	to{opacity:1}
 }
+.contact-col-2 p {
+	text-align: left;
+}
+.contact-social {
+	padding-top: 25px;
+	float: left;
+	padding-left: 65px;
+	margin-left: -64px;
+}
+.contact-social div {
+	clear: both;
+}
+.contact-social div img {
+	float: left;
+	width: 25px;
+	height: 25px;
+}
+.contact-social div p {
+	float: left;
+	font-weight: bold;
+	padding-top: 0px;
+	margin-top: 3px;
+	padding-left: 20px;
+}
+.contact-col-2 form {
+	width: 100%;
+}
+.contact-col-2 form input {
+	width: 80%;
+	margin-bottom: 5px;
+	border: thin solid rgba(255,14,18,1.00);
+	height: 45px;
+	border-radius: 5px;
+	padding-left: 40px;
+	font-family: cookie;
+	font-style: normal;
+	font-weight: 400;
+	font-size: large;
+}
+.contact-col-2 form input:hover {
+	border: thin solid rgba(0,0,0,1.00);
+	font-family: Calibri;
+}
+
+.contact-col-2 form textarea {
+	width: 80%;
+	border: thin solid rgba(255,14,18,1.00);
+	margin-bottom: 5px;
+	border-radius: 5px;
+	height: 75px;
+	padding-left: 40px;
+	background-image: url(Precision-Print/images/icon/mail.png);
+	background-size: auto 25px;
+	background-position: 8px 7px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+.contact-col-2 form textarea:hover  {
+	width: 80%;
+	border: thin solid rgba(0,0,0,1.00);
+	margin-bottom: 5px;
+	border-radius: 5px;
+	height: 75px;
+	font-family: Calibri;
+}
+#submit {
+	border-radius: 0px;
+	border-style: none;
+	border-color: rgba(255,255,255,1.00);
+	background-color: #FBDA00;
+	cursor: pointer;
+	font-family: Calibri;
+	text-align: center;
+	padding-left: 0px;
+	width: 87%;
+}
+#submit:hover {
+	background-color: #FFEA60;
+}
+
+
+
+#name{
+	background-image: url(Precision-Print/images/icon/man-user.png);
+	background-repeat: no-repeat;
+	background-size: auto 25px;
+	background-attachment: scroll;
+	background-position: 8px 10px;
+	
+}
+#email{
+	background-image: url(Precision-Print/images/icon/envelope.png);
+	background-repeat: no-repeat;
+	background-size: auto 25px;
+	background-attachment: scroll;
+	ackground-position: 3px 4px;
+	background-position: 8px 10px;
+	
+}
+#tel{
+	background-image: url(Precision-Print/images/icon/phone-receiver.png);
+	background-repeat: no-repeat;
+	background-size: auto 25px;
+	background-attachment: scroll;
+	ackground-position: 10px 4px;
+	background-position: 8px 10px;
+	
+}
+
+
+
 
 
 

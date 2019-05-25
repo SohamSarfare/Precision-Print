@@ -346,7 +346,7 @@ main {
 }
 .contact {
 	width: 100%;
-	background-image: url(images/Website%20Assets/card.jpg);
+	background-image: url(images/Website%20Assets/card.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-top: 100px;
@@ -357,7 +357,7 @@ main {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: rgba(157,157,157,0.73);
+	background-color: rgba(224,224,224,0.83);
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
@@ -443,7 +443,7 @@ main {
 	border-radius: 5px;
 	height: 75px;
 	padding-left: 40px;
-	background-image: url(Precision-Print/images/icon/mail.png);
+	background-image: url(images/icon/mail.png);
 	background-size: auto 25px;
 	background-position: 8px 7px;
 	background-repeat: no-repeat;
@@ -475,7 +475,7 @@ main {
 
 
 #name{
-	background-image: url(Precision-Print/images/icon/man-user.png);
+	background-image: url(images/icon/man-user.png);
 	background-repeat: no-repeat;
 	background-size: auto 25px;
 	background-attachment: scroll;
@@ -483,7 +483,7 @@ main {
 	
 }
 #email{
-	background-image: url(Precision-Print/images/icon/envelope.png);
+	background-image: url(images/icon/envelope.png);
 	background-repeat: no-repeat;
 	background-size: auto 25px;
 	background-attachment: scroll;
@@ -492,7 +492,7 @@ main {
 	
 }
 #tel{
-	background-image: url(Precision-Print/images/icon/phone-receiver.png);
+	background-image: url(images/icon/phone-receiver.png);
 	background-repeat: no-repeat;
 	background-size: auto 25px;
 	background-attachment: scroll;

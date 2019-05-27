@@ -149,6 +149,35 @@ header {
 	border-bottom-style: solid;
 	border-bottom-color: rgba(253,16,20,1.00);
 }
+.slideshow {
+}
+.slideshowslide {
+	display: none;
+}
+.slideshow-nav a {
+	color: rgba(162,162,162,1.00);
+}
+
+.fade {
+	
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.0s;
+  animation-name: fade;
+  animation-duration: 2.0s;
+
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
 main {
 	text-align: center;
 	width: 100%;
@@ -287,12 +316,13 @@ main {
 	background-color: rgba(158,0,2,1.00);
 	margin-right: auto;
 	margin-left: auto;
-	width: 100px;
+	width: 50px;
 	padding-top: 20px;
-	padding-right: 15px;
+	padding-right: 20px;
 	padding-bottom: 20px;
-	padding-left: 15px;
+	padding-left: 20px;
 	border-radius: 55%;
+	height: 50px;
 }
 .clients {
 	margin-top: 100px;
@@ -425,7 +455,7 @@ main {
 	border: thin solid rgba(255,14,18,1.00);
 	height: 45px;
 	border-radius: 5px;
-	padding-left: 40px;
+	padding-left: 41px;
 	font-family: cookie;
 	font-style: normal;
 	font-weight: 400;
@@ -523,6 +553,7 @@ footer {
 	color: rgba(171,171,171,1.00);
 	line-height: 0px;
 	bottom: 0px;
+	font-size: small;
 }
 .footer-social {
 	padding-top: 0px;

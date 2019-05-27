@@ -24,3 +24,16 @@ function nextSlide(index){
 	}
 	//showSlides();
 }
+var dropping = 0
+function headerExpand(){
+	var head = document.getElementById('drop');
+	if(dropping == 0){
+	head.style.display = "block";
+	head.style.float = "left";
+	dropping = 1;
+	}
+	else{
+		head.style.display = "none";
+		dropping = 0;
+	}
+}

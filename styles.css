@@ -37,6 +37,7 @@ header {
 	padding-top: 0px;
 	width: 100%;
 }
+
 .head-img {
 	width: 150px;
 	height: 175px;
@@ -64,6 +65,10 @@ header {
 	border-width: medium;
 
 }
+.head-center-menu {
+	display: none;
+}
+
 .head-left {
 	float: left;
 	width: 109px;
@@ -101,6 +106,7 @@ header {
 	font-size: 16px;
 	border: none;
 }
+
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -329,7 +335,7 @@ main {
 	height: 50px;
 }
 .small {
-	width: 0px;
+
 }
 
 .clients {
@@ -697,7 +703,7 @@ h1 {
 
 }
 
-@media ( min-width : 400px ) and (max-width : 815px ){
+@media (min-width:666px) and (max-width:815px){
 	.main-col-4 {
 	width: 48%;
 	-webkit-box-shadow: 3px 3px 22px rgba(155,155,155,1.00);
@@ -871,6 +877,230 @@ h1 {
 
 
 
+
+
+
+
+
+}
+
+@media (max-width: 666px){
+.footer-img {
+	width: 16%;
+	height: auto;
+	float: left;
+	padding-left: 9px;
+}
+.footer-center {
+	width: 41%;
+	text-align: center;
+	float: left;
+	padding-top: 37px;
+	margin-left: 33px;
+
+}
+.footer-social {
+	padding-top: 0px;
+	float: left;
+	margin-top: -20px;
+	font-size: small;
+	padding-bottom: 0px;
+	margin-left: -46px;
+}
+.main-col-4 {
+	width: 48%;
+	-webkit-box-shadow: 3px 3px 22px rgba(155,155,155,1.00);
+	box-shadow: 3px 3px 22px rgba(155,155,155,1.00);
+	padding-top: 15px;
+	float: left;
+	padding-bottom: 15px;
+	padding-left: 0px;
+	margin-right: 1%;
+	min-height: 400px;
+	/* [disabled]max-height: 250px; */
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 1%;
+}
+.services {
+	background-repeat: no-repeat;
+	/* [disabled]margin-bottom: 100px; */
+	padding-top: 24px;
+	padding-bottom: 50px;
+	background-size: 100% 700px;
+	background-image: url(images/Website%20Assets2/Plotter_Background-min.png);
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	background-color: rgba(77,77,77,1.00);
+	margin-top: 74px;
+}
+.services-col-5 {
+	background-color: rgba(255,255,255,1.00);
+	float: left;
+	padding-top: 41px;
+	border-radius: 24px;
+	width: 49%;
+	margin-right: 0.5%;
+	margin-top: 25px;
+	position: relative;
+	min-height: 155px;
+	margin-left: 0.5%;
+}
+.small {
+	float: left;
+	/* [disabled]margin-left: 33.5%; */
+	/* [disabled]padding-left: 0.5%; */
+	/* [disabled]margin-right: 32.5%; */
+}
+
+.main-tag p {
+	text-align: center;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.head-img {
+	width: 21%;
+	margin-bottom: 0px;
+	float: left;
+	margin-left: 22px;
+	margin-top: 19px;
+	height: auto;
+	margin-right: 0px;
+	padding-right: 0px;
+}
+.head-center {
+	float: left;
+	margin-top: 31px;
+	padding-right: 0px;
+	padding-left: 0px;
+	margin-left: 0px;
+	width: 56%;
+}
+.head-center ul {
+	display: none;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+.head-center ul li {
+	display: block;
+	padding-bottom: 14px;
+	font-family: Calibri;
+	font-size: large;
+	padding-top: 30px;
+	padding-left: 0px;
+	padding-right: 10px;
+	max-width: 100px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.head-center-menu {
+	display: block;
+	margin-left: 46%;
+	margin-top: 19px;
+}
+.head-center-menu:hover {
+	display: block;
+	margin-left: 46%;
+	margin-top: 19px;
+	cursor: pointer;
+}
+.head-center-menu div {
+	width: 34px;
+	height: 2px;
+	background-color: rgba(158,0,2,1.00);
+	margin-top: 6px;
+}
+
+.head-left {
+	float: right;
+	width: 14%;
+	height: auto;
+	margin-top: 32px;
+	padding-left: 0px;
+	display: inline;
+}
+.head-social {
+	padding-top: 25px;
+	float: left;
+	padding-left: 0px;
+	margin-left: 0px;
+	display: none;
+
+}
+.head-social-link {
+	float: left;
+	margin-top: 2px;
+	padding-left: 15px;
+	width: auto;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	/* [disabled]z-index: 1; */
+	margin-top: 16px;
+	margin-left: -27px;
+	text-align: center;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: medium;
+	overflow-x: visible;
+	overflow-y: visible;
+	visibility: visible;
+}
+.contact-col-2 {
+	width: 95%;
+	float: left;
+	text-align: center;
+	padding-bottom: 20px;
+	padding-left: 2%;
+}
+.contact-col-2 p {
+	text-align: center;
+
+}
+.underline:after {
+	content: '';
+	width: 60px;
+	height: 3px;
+	position: absolute;
+	bottom: -4px;
+	background-color: rgba(158,0,2,1.00);
+	right: auto;
+	left: 28%;
+}
+.contact-social  {
+	clear: both;
+	width: 100%;
+	text-align: center;
+}
+.contact-social div img {
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-left: 25%;
+}
+.clients {
+	margin-top: 100px;
+	min-height: 600px;
+}
+.clients-col-6 {
+	width: 33%;
+	float: left;
+	margin-top: 51px;
+	max-height: 100px;
+}
+.client-info {
+	float: left;
+	display: none;
+	width: 100%;
+	margin-top: 50px;
+	font-size: large;
+}
 
 
 

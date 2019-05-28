@@ -24,7 +24,7 @@ function nextSlide(index){
 	}
 	//showSlides();
 }
-var dropping = 0
+var dropping = 0;
 function headerExpand(){
 	var head = document.getElementById('drop');
 	if(dropping == 0){
@@ -36,4 +36,8 @@ function headerExpand(){
 		head.style.display = "none";
 		dropping = 0;
 	}
+}
+function headerCollapse(){
+	var head = document.getElementById('drop');
+	head.style.display = "none";
 }
